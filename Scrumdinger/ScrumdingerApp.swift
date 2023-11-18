@@ -1,9 +1,6 @@
-//
-//  ScrumdingerApp.swift
-//  Scrumdinger
-//
-//  Created by Garrett Van Dyke on 11/18/23.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 
@@ -11,7 +8,7 @@ import SwiftUI
 struct ScrumdingerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MeetingView()
         }
     }
 }
