@@ -7,7 +7,7 @@ import SwiftUI
 struct MeetingView: View {
     var body: some View {
         VStack {
-            ProgressView(value: 5, total: 15)
+            ProgressView(value: 9, total: 15)
             HStack {
                 VStack(alignment: .leading) {
                     Text("Seconds Elapsed")
@@ -25,7 +25,7 @@ struct MeetingView: View {
             .accessibilityLabel("Time remaining")
             .accessibilityValue("10 minutes")
             Circle()
-                .strokeBorder(lineWidth: 24)
+                .strokeBorder(lineWidth: 25)
             HStack {
                 Text("Speaker 1 of 3")
                 Spacer()
